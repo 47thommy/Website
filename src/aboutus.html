@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="media/favicon (1).ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Development" />
+    <meta name="keywords" content="FRONTENDE, BACKEND" />
+    <meta name="author" content="Thomas Wondwosen" />
+    <meta name="theme-color" content="#673AB6" />
+    <title>About us</title>
+    <link rel="stylesheet" href="styleabout.css" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="image/logo-color.png"
+            alt="this is a logo"
+            width="100px"
+            height="100px"
+            class="logo"
+          /><br />
+          <h1><b>Protofolio</b></h1>
+        </div>
+        <div>
+          <input type="checkbox" id="menu-bar" />
+          <label for="menu-bar" id="label">Menu</label>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="Services.html">Service</a></li>
+            <li><a href="price.html">Pricing</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="type">
+        <div>
+          <h1>About Us</h1>
+          <h2>Home/About Us</h2>
+        </div>
+      </div>
+    </header>
+
+    <br />
+    <br />
+    <br />
+
+    <main>
+      <div class="about pic">
+        <img
+          src="image/developer2.jpg"
+          alt="my picture"
+          width="243px"
+          height="340px"
+        />
+      </div>
+
+      <div class="about pic_text">
+        <strong> <span class="head"> Thomas Wondwosen</span> <br /> </strong>
+        <p>
+          I am a seasoned software expert who has developed products for <br />
+          enterprise clients such as Intuit, Yale University, and <br />
+          Hewlett-Packard (HP), as well as many venture-backed businesses. I
+          <br />
+          specialize in building applications specific to the business needs of
+          <br />
+          my clients. I have done work in software development, mobile app
+          <br />
+          creation, front-end/back-end web, database/server management, graphic
+          <br />
+          design, and video game development.
+        </p>
+      </div>
+
+      <div class="about text">
+        <p>
+          Since 2005, I've enjoyed turning complex problems into simple,
+          beautiful and intuitive designs. When I'm not pushing pixels, you'll
+          find me cooking, gardening or working out in the park.s
+        </p>
+      </div>
+
+      <div class="about video">
+        <div id="video">
+          <video width="320" height="240" controls id="video">
+            <source
+              src="video/5ea0c5c0b2-about-me_20221227_001206_freemium - Trim.mp4"
+              type="video/mp4"
+              title="Video ABout Me"
+              height:400px;
+              width:500px;
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="testimony">
+          <p>here is what people think about me:</p>
+
+          <audio controls id="audio">
+            <source
+              src="Audio/167210239092039675ulr-voicemaker.in-speech.mp3"
+              type="audio/mp3"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <div class="footer slogan">
+        <p>
+          <strong
+            >We Dont't Say Impossible! <br />
+            We First Ask Why Not?</strong
+          >
+        </p>
+        <p>If Not Now, When? <br />Let's Work Together!</p>
+      </div>
+      <div class="footer form">
+        <form id="form">
+          <div class="input-control">
+            <label for="username">Full Name</label>
+            <input
+              type="text"
+              placeholder="Full Name"
+              size="25"
+              id="username"
+            />
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              placeholder="Email Address"
+              size="25 px"
+              id="email"
+            />
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <div class="input-control">
+            <label for="message">Your Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="25"
+              rows="7"
+              placeholder="Your message"
+            ></textarea>
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <button class="sendmessage" type="submit">Send Message</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

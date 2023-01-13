@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="media/favicon (1).ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="description" content="Web Development" />
+    <meta name="keywords" content="FRONTENDE, BACKEND" />
+    <meta name="author" content="Thomas Wondwosen" />
+    <meta name="theme-color" content="#673AB6" />
+    <title>Home</title>
+    <link rel="stylesheet" href="stylehome.css" />
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="image/logo-color.png"
+            alt="this is a logo"
+            width="12%"
+            height="12%"
+            class="logo"
+          /><br />
+          <h1><b>Protofolio</b></h1>
+        </div>
+        <div>
+          <input type="checkbox" id="menu-bar" />
+          <label for="menu-bar" id="label">Menu</label>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="Services.html">Service</a></li>
+            <li><a href="price.html">Pricing</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="Contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="introduction">
+        <img
+          src="image/developer.jpg"
+          alt="my picture"
+          class="developerPic"
+          width="175px"
+          height="117px"
+        />
+        <p>
+          <b
+            >I'm Developer <br />
+            Thomas Wondwosen</b
+          >
+        </p>
+      </div>
+
+      <p id="info">
+        I am a Fullstack developer <br />
+        with more than 3 years of experience. <br />
+        let's create magic together!
+      </p>
+      <div class="btn">
+        <a href="#"
+          ><button type="button" class="downloadcv">Download Cv</button></a
+        >
+        <button type="button" class="hireme">Hire ME</button>
+      </div>
+    </header>
+    <main>
+      <h2><strong>Services you will get from me</strong></h2>
+      <a href="#">
+        <div class="service mobile">
+          <img
+            src="image/mobile-app-dev-icon.png"
+            alt="mobile icon"
+            height="40px"
+            width="23.281px"
+            class="mobile-app-icon"
+          />
+          <br /><br />
+          <h1>
+            Mobile App <br />
+            Development
+          </h1>
+          <br />
+          <p>
+            Developing and maintaining <br />
+            user friendly apps <br />
+            by using recent tools
+          </p>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="service ux">
+          <img
+            src="image/mobile-ui-ux-icon.png"
+            alt="ux/ui designing icon"
+            height="40px"
+            width="23.281px"
+            class="mobile-app-icon"
+          />
+          <br /><br />
+          <h1>UI/UX Design</h1>
+          <br />
+          <p>
+            designing simple effective <br />
+            userfriendly and aesthetic <br />
+            user interface
+          </p>
+        </div>
+      </a>
+      <a href="#">
+        <div class="service web">
+          <img
+            src="image/mobile-app-dev-icon.png"
+            alt="web designing icon"
+            height="40px"
+            width="23.281px"
+            class="mobile-app-icon"
+          />
+          <br /><br />
+          <h1>Web Design</h1>
+          <br />
+          <p>
+            designing simple, effective <br />
+            userfriendly, aesthetic <br />
+            and interactive user interface
+          </p>
+        </div>
+      </a>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <div class="footer slogan">
+        <p>
+          <strong
+            >We Dont't Say Impossible! <br />
+            We First Ask Why Not?</strong
+          >
+        </p>
+        <p>If Not Now, When? <br />Let's Work Together!</p>
+      </div>
+      <div class="footer form">
+        <form id="form">
+          <div class="input-control">
+            <label for="username">Full Name</label>
+            <input
+              type="text"
+              placeholder="Full Name"
+              size="25"
+              id="username"
+            />
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <div class="input-control">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              placeholder="Email Address"
+              size="25 px"
+              id="email"
+            />
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <div class="input-control">
+            <label for="message">Your Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="25"
+              rows="7"
+              placeholder="Your message"
+            ></textarea>
+            <div class="error"></div>
+          </div>
+          <br />
+          <br />
+          <button class="sendmessage" type="submit">Send Message</button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
